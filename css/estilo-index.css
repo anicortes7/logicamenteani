@@ -1,0 +1,18 @@
+.diario {
+    background-image: url(../img/fondo420.jpg);
+    text-align: center;
+    font-weight: bold;
+}
+.diario:hover {
+	color: #B9E28C;
+}
+.card {
+    border: none;
+}
+p {
+    color: black;
+}
+.responsive {
+	width: 100%;
+	height: auto;
+}

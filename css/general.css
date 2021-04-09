@@ -1,0 +1,84 @@
+:root {
+    --verde: #B9E28C;
+    --lila: #a379c9;
+    --rosa: #F46698;
+}
+* {
+    font-family:"DotGothic16";
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    width: 100%;
+    font-size: 1.25rem;
+}
+.row {
+    margin: 0;
+}
+header {
+    background-color: #ECDFD1;
+}
+main {
+    padding: 1rem;
+}
+a {
+    color: #21240E;
+    font-size: 1.875rem;
+    text-decoration: none;
+}
+a:hover {
+    color: var(--verde);
+}
+#logicamenteana a {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.125rem;
+}
+#logicamenteana {   
+    text-align: center;
+    padding: 0.9375rem 0.9375rem 0rem;
+}
+.item1 {
+    font-size: 2.1875rem;
+    text-align: center;
+}
+a.nav-link {
+    font-size: 1.5625rem;
+}
+a.dropdown-item , .navbar-brand {
+    font-size: 1.25rem;
+}
+.navbar {
+    background-color: var(--verde);
+    margin: 0px;
+}
+footer {
+    background-color: var(--verde);    
+    color: var(--rosa);
+}
+h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.social a , .contacto a {
+    color: var(--rosa);
+    font-size: 1.25rem;
+}
+.social a:hover {
+    color: #fff;
+}
+div.contacto {
+    text-align: left;
+}
+div.social {
+    text-align: right;
+}
+.copyright {
+    color: #fff;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+h5 a{
+    color: #fff;
+}
