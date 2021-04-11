@@ -9,6 +9,7 @@
 }
 .card {
     border: none;
+    background-color: transparent;
 }
 p {
     color: black;
@@ -18,5 +19,8 @@ p {
 	height: auto;
 }
 .col-md-5 .responsive {
-    border: 5px solid black;
+    border: 5px solid white;
+}
+.card > * {
+    border-radius: 0px;
 }
