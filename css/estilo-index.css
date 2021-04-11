@@ -17,3 +17,6 @@ p {
 	width: 100%;
 	height: auto;
 }
+.col-md-5 .responsive {
+    border: 5px solid black;
+}
