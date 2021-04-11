@@ -1,10 +1,10 @@
-.diario {
+.archivo {
     background-image: url(../img/fondo420.jpg);
     text-align: center;
     font-weight: bold;
     color: #fff;
 }
-.diario:hover {
+.archivo:hover {
 	color: #B9E28C;
 }
 .card {
