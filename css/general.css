@@ -13,6 +13,7 @@ html {
 body {
     width: 100%;
     font-size: 1.25rem;
+    background-color: #F7F2EC;
 }
 .row {
     margin: 0;
