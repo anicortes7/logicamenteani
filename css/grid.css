@@ -1,7 +1,7 @@
-.card{
+.card {
     border: none;
-    padding: 0.1rem;
+    margin: 0.1rem;
 }
-.card-img-top{
+.card-img-top {
     border-radius: 0px;
 }
