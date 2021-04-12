@@ -7,10 +7,6 @@
 .archivo:hover {
 	color: #B9E28C;
 }
-.card {
-    border: none;
-    background-color: transparent;
-}
 p {
     color: black;
 }
@@ -18,9 +14,23 @@ p {
 	width: 100%;
 	height: auto;
 }
-.col-md-5 .responsive {
-    border: 5px solid white;
+.card {
+    border: none;
+    background-color: transparent;
 }
 .card > * {
     border-radius: 0px;
+}
+.col-md-5 .responsive {
+    border: 5px solid white;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+}
+.carousel-indicators button {
+    border-radius: 100%;
+}
+.carousel-control-prev , .carousel-control-next {
+    width: auto;
 }
