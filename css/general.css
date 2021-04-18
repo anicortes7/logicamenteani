@@ -32,27 +32,25 @@ a {
 a:hover {
     color: var(--verde);
 }
-#logicamenteana a {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 3.125rem;
-}
-#logicamenteana {   
-    text-align: center;
-    padding: 0.9375rem 0.9375rem 0rem;
-}
-.item1 {
-    font-size: 2.1875rem;
-    text-align: center;
+.navbar a {
+    font-size: 1.25rem;
 }
 a.nav-link {
     font-size: 1.5625rem;
 }
-a.dropdown-item , .navbar-brand {
-    font-size: 1.25rem;
-}
 .navbar {
     background-color: var(--verde);
+    text-align: center;
     margin: 0px;
+}
+header a {
+    font-size: 2.1875rem;
+    text-align: center;
+}
+#logicamenteana a {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3.125rem;
+    padding: 0;
 }
 footer {
     background-color: var(--verde);    
@@ -61,6 +59,9 @@ footer {
 h4 {
     font-weight: bold;
     font-size: 1.5rem;
+}
+h5 a {
+    color: #fff;
 }
 .social a , .contacto a {
     color: var(--rosa);
@@ -79,7 +80,4 @@ div.social {
     color: #fff;
     font-size: 0.9375rem;
     text-align: center;
-}
-h5 a{
-    color: #fff;
 }
