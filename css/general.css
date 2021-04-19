@@ -2,6 +2,9 @@
     --verde: #B9E28C;
     --lila: #a379c9;
     --rosa: #F46698;
+    --almendra: #F7F2EC;
+    --header: #ECDFD1;
+    --a: #21240E;
 }
 * {
     font-family:"DotGothic16";
@@ -13,19 +16,13 @@ html {
 body {
     width: 100%;
     font-size: 1.25rem;
-    background-color: #F7F2EC;
+    background-color: var(--almendra);
 }
 .row {
     margin: 0;
 }
-header {
-    background-color: #ECDFD1;
-}
-main {
-    padding: 1rem;
-}
 a {
-    color: #21240E;
+    color: var(--a);
     font-size: 1.875rem;
     text-decoration: none;
 }
@@ -43,6 +40,21 @@ a.nav-link {
     text-align: center;
     margin: 0px;
 }
+.dropdown-menu {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+    left: 0;
+}
+.dropdown-item:active {
+    background-color: var(--verde);
+}
+header {
+    background-color: var(--header);
+}
 header a {
     font-size: 2.1875rem;
     text-align: center;
@@ -52,12 +64,11 @@ header a {
     font-size: 3.125rem;
     padding: 0;
 }
-h5 {
-    color: #fff;
-    font-size: 1.875rem;
+main {
+    padding: 1rem;
 }
-h5:hover {
-    color: var(--verde);
+h2 {
+    text-align: center;
 }
 .card {
     border: none;
@@ -65,6 +76,16 @@ h5:hover {
 }
 .card > * {
     border-radius: 0px;
+}
+.card-title {
+    color: #fff;
+    font-size: 1.875rem;
+}
+/* .card:hover {
+    border: .1rem solid var(--verde);
+} */
+.stretched-link {
+    margin: auto;
 }
 p {
     color: black;
@@ -93,8 +114,5 @@ div.social {
 .copyright {
     color: #fff;
     font-size: 0.9375rem;
-    text-align: center;
-}
-h2{
     text-align: center;
 }
