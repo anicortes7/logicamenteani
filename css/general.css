@@ -63,6 +63,7 @@ header a {
     font-family: 'Archivo Black', sans-serif;
     font-size: 3.125rem;
     padding: 0;
+    word-wrap: break-word;
 }
 main {
     padding: 1rem;
@@ -83,6 +84,7 @@ h2 {
 }
 /* .card:hover {
     border: .1rem solid var(--verde);
+    border-radius: 0px;
 } */
 .stretched-link {
     margin: auto;
