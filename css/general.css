@@ -59,6 +59,16 @@ h5 {
 h5:hover {
     color: var(--verde);
 }
+.card {
+    border: none;
+    background-color: transparent;
+}
+.card > * {
+    border-radius: 0px;
+}
+p {
+    color: black;
+}
 footer {
     background-color: var(--verde);    
     color: var(--rosa);
