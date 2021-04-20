@@ -1,6 +1,9 @@
-.item{
+div {
     text-align: center;
 }
-main{
+main {
     background-image: url(../img/fondomain.jpg);
+}
+main a {
+    color: white;
 }

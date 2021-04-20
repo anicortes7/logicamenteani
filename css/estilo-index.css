@@ -1,29 +1,7 @@
-.archivo {
-    background-image: url(../img/fondo420.jpg);
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
-}
-.archivo:hover {
-	color: #B9E28C;
-}
-p {
-    color: black;
-}
-.responsive {
+/* .responsive {
 	width: 100%;
 	height: auto;
-}
-.card {
-    border: none;
-    background-color: transparent;
-}
-.card > * {
-    border-radius: 0px;
-}
-.col-md-5 .responsive {
-    border: 5px solid white;
-}
+} */
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
@@ -34,3 +12,12 @@ p {
 .carousel-control-prev , .carousel-control-next {
     width: auto;
 }
+.archivo {
+    background-image: url(../img/fondo420.jpg);
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+/* .archivo:hover {
+	color: #B9E28C;
+} */
