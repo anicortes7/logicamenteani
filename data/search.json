@@ -1,0 +1,289 @@
+[
+    {
+        "collection": "27oct",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/27oct.html"
+    },
+    {
+        "collection": "bafweek",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/bafweek1.html"
+    },    
+    {
+        "collection": "bahrein",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/bahrein.html"
+    },
+    {
+        "collection": "brasil",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/brasil.html"
+    },
+    {
+        "collection": "capilla",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/capilla.html"
+    },
+    {
+        "collection": "cuarentena",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2020,
+        "html": "experiencias/analogicas/cuarentena.html"
+    },
+    {
+        "collection": "21",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2021,
+        "html": "experiencias/analogicas/cumple.html"
+    },
+    {
+        "collection": "cumple 19",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/cumple19.html"
+    },
+    {
+        "collection": "'digweed",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/digweed.html"
+    },
+    {
+        "collection": "enm",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/enm.html"
+    },
+    {
+        "collection": "lolla",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/lolla.html"
+    },
+    {
+        "collection": "male",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2020,
+        "html": "experiencias/analogicas/male.html"
+    },
+    {
+        "collection": "mardel",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2021,
+        "html": "experiencias/analogicas/mardel.html"
+    },
+    {
+        "collection": "mdlp",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/mdlp.html"
+    },
+    {
+        "collection": "mdq",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2020,
+        "html": "experiencias/analogicas/mdq1.html"
+    },
+    {
+        "collection": "navidad18",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2018,
+        "html": "experiencias/analogicas/navidad18.html"
+    },
+    {
+        "collection": "navidad20",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2020,
+        "html": "experiencias/analogicas/navidad20.html"
+    },
+    {
+        "collection": "nye",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2021,
+        "html": "experiencias/analogicas/nye.html"
+    },
+    {
+        "collection": "pinamar'19",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/pinamar2019.html"
+    },
+    {
+        "collection": "pinamar'21",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2021,
+        "html": "experiencias/analogicas/pinamar2021.html"
+    },
+    {
+        "collection": "rabia",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2020,
+        "html": "experiencias/analogicas/rabia.html"
+    },
+    {
+        "collection": "simona",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/simona.html"
+    },
+    {
+        "collection": "trip",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/trip.html"
+    },
+    {
+        "collection": "amsterdam",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/europa/amsterdam.html"
+    },
+    {
+        "collection": "atenas",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/europa/atenas.html"
+    },
+    {
+        "collection": "barcelona",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/europa/barcelona.html"
+    },
+    {
+        "collection": "londres",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/europa/londres.html"
+    },
+    {
+        "collection": "paris",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/europa/paris.html"
+    },
+    {
+        "collection": "roma",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/europa/roma.html"
+    },
+    {
+        "collection": "venecia",
+        "tipo": "experiencia",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "experiencias/analogicas/europa/venecia.html"
+    },
+    {
+        "collection": "abrazos",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/abrazos.html"
+    },
+    {
+        "collection": "besos",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/besos.html"
+    },
+    {
+        "collection": "campo",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/campo.html"
+    },
+    {
+        "collection": "gatos",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/gatos.html"
+    },
+    {
+        "collection": "gutenberg",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/gutenber.html"
+    },
+    {
+        "collection": "mañanas",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/mañanas.html"
+    },
+    {
+        "collection": "movidas",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/movidas.html"
+    },
+    {
+        "collection": "noches",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/noches.html"
+    },
+    {
+        "collection": "tardes",
+        "tipo": "retratos",
+        "medio": "analógicas",
+        "year": null,
+        "html": "retratos/tardes.html"
+    },
+    {
+        "collection": "abril",
+        "tipo": "proyectos",
+        "medio": "analógicas",
+        "year": 2019,
+        "html": "proyectos/abril.html"
+    },
+    {
+        "collection": "DANG",
+        "tipo": "proyectos",
+        "medio": "analógicas",
+        "year": 2020,
+        "html": "proyectos/dang.html"
+    }
+]
