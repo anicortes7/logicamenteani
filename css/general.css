@@ -7,7 +7,7 @@
     --a: #21240E;
 }
 @font-face {
-    font-family: 'Matroska';
+    font-family: 'matroska';
     src: url('../fonts/matroska.woff2') format('woff2'),
          url('../fonts/matroska.woff') format('woff');
   }
