@@ -16,29 +16,41 @@
   <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">logicamenteana</a>
+        <a class="navbar-brand" href="../index.html">logicamenteana</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item px-3">
-              <a class="nav-link" href="proyectos.html">proyectos</a>
+              <a class="nav-link" href="../proyectos.html">proyectos</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="../retratos.html">retratos</a>
             </li>
             <li class="nav-item px-3 dropdown">
               <a class="nav-link dropdown-toggle" href="experiencias.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">experiencias</a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="experiencias/analogicas.html">analógicas</a></li>
-                <li><a class="dropdown-item" href="experiencias/digitales.html">digitales</a></li>
-                <li><a class="dropdown-item" href="experiencias/audiovisual.html">audiovisuales</a></li>
+                <li><a class="dropdown-item" href="../experiencias/analogicas.html">analógicas</a></li>
+                <li><a class="dropdown-item" href="../experiencias/digitales.html">digitales</a></li>
+                <li><a class="dropdown-item" href="../experiencias/audiovisual.html">audiovisuales</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="experiencias.html">ver todo</a></li>
+                <li><a class="dropdown-item" href="../experiencias.html">ver todo</a></li>
               </ul>
             </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="retratos.html">retratos</a>
-            </li>
           </ul>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <input type="text" id="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col"> <!-- Use a column to center the results below the search bar -->
+                <div id="match-list" class="position-fixed bg-white"></div>
+              </div>
+            </div>
+          </div>              
         </div>
       </div>
     </nav>
@@ -46,11 +58,6 @@
   <header class="container-fluid p-0">
     <div class="row py-2 py-md-3">
       <a href="index.html" target="_self" id="logicamenteana">logicamenteana</a>
-    </div>
-    <div class="row">
-      <a class="col-12 col-md-4 p-0 pb-2 pb-md-3" href="proyectos.html" target="_self">proyectos</a>
-      <a class="col-12 col-md-4 p-0 pb-2 pb-md-3" href="experiencias.html" target="_self">experiencias</a>
-      <a class="col-12 col-md-4 p-0 pb-2 pb-md-3" href="retratos.html" target="_self">retratos</a>
     </div>
   </header>
   <main class="container">
@@ -80,12 +87,12 @@
       </div>    
       <div class="col px-2 px-md-3">
         <div class="card text-center">
-          <img src="img/yo/IMG_8350.JPG" class="card-img-top">
+          <img src="img/yo/1520 - AA015.jpg" class="card-img-top">
           <div class="card-text p-1">
-            <p>mis amigas</p>
+            <p>la persona que mas me inspira</p>
           </div>
         </div>
-      </div>     
+      </div>
       <div class="col px-2 px-md-3"> 
         <div class="card text-center">
           <img src="img/yo/IMG_8356.JPG" class="card-img-top">
@@ -110,30 +117,8 @@
           </div>
         </div>
       </div> 
-      <div class="col px-2 px-md-3">
-        <div class="card text-center">
-          <img src="img/yo/1520 - AA015.jpg" class="card-img-top">
-          <div class="card-text p-1">
-            <p>la persona que mas me inspira</p>
-          </div>
-        </div>
-      </div>
-      <div class="col px-2 px-md-3">
-        <div class="card text-center">
-          <img src="img/yo/IMG_4407.jpg" class="card-img-top">
-          <div class="card-text p-1">
-            <p>el momento por el que sigo respirando</p>
-          </div>
-        </div>
-      </div>
-      <div class="col px-2 px-md-3">
-        <div class="card text-center">
-          <img src="img/yo/img2368.jpg" class="card-img-top">
-          <div class="card-text p-1">
-            <p>una analogica mia usando ropa de mi marca</p>
-          </div>
-        </div>
-      </div>
+      <script src="https://sdk.scdn.co/spotify-player.js"></script>
+      <script></script>
     </div>
   </main>
   <footer class="container-fluid p-2 pt-md-5 px-md-5 pb-md-3">
@@ -151,6 +136,7 @@
     </div>
     <div class="copyright pt-2 pt-md-4">Copyright © 2021 - Ana Cortés y Iara Antón Braier</div>
   </footer>
+  <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -25,6 +25,9 @@
             <li class="nav-item px-3">
               <a class="nav-link" href="../../proyectos.html">proyectos</a>
             </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="../../retratos.html">retratos</a>
+            </li>
             <li class="nav-item px-3 dropdown">
               <a class="nav-link dropdown-toggle" href="experiencias.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">experiencias</a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -35,10 +38,19 @@
                 <li><a class="dropdown-item" href="../../experiencias.html">ver todo</a></li>
               </ul>
             </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../../retratos.html">retratos</a>
-            </li>
           </ul>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <input type="text" id="search" class="form-control" placeholder="Buscar..." autocomplete="off">
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col"> <!-- Use a column to center the results below the search bar -->
+                <div id="match-list" class="position-fixed bg-white"></div>
+              </div>
+            </div>
+          </div>              
         </div>
       </div>
     </nav>
@@ -46,11 +58,6 @@
   <header class="container-fluid p-0">
     <div class="row py-2 py-md-3">
       <a href="../../index.html" target="_self" id="logicamenteana">logicamenteana</a>
-    </div>
-    <div class="row">
-      <a class="col-12 col-md-4 p-0 pb-2 pb-md-3" href="../../proyectos.html" target="_self">proyectos</a>
-      <a class="col-12 col-md-4 p-0 pb-2 pb-md-3" href="../../experiencias.html" target="_self">experiencias</a>
-      <a class="col-12 col-md-4 p-0 pb-2 pb-md-3" href="../../retratos.html" target="_self">retratos</a>
     </div>
   </header>
   <main class="p-1">
@@ -105,6 +112,7 @@
     </div>
     <div class="copyright pt-2 pt-md-4">Copyright © 2021 - Ana Cortés y Iara Antón Braier</div>
   </footer>
+  <script src="../../script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>

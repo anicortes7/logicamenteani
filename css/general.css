@@ -6,6 +6,12 @@
     --header: #ECDFD1;
     --a: #21240E;
 }
+@font-face {
+    font-family: 'Matroska';
+    src: url('../fonts/matroska.woff2') format('woff2'),
+         url('../fonts/matroska.woff') format('woff');
+  }
+  
 * {
     font-family:"DotGothic16";
     box-sizing: border-box;
@@ -60,8 +66,8 @@ header a {
     text-align: center;
 }
 #logicamenteana {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 3.125rem;
+    font-family: 'matroska', sans-serif;
+    font-size: 100px;
     padding: 0;
     word-wrap: break-word;
 }
@@ -82,10 +88,6 @@ h2 {
     color: #fff;
     font-size: 1.875rem;
 }
-/* .card:hover {
-    border: .1rem solid var(--verde);
-    border-radius: 0px;
-} */
 .stretched-link {
     margin: auto;
 }
@@ -118,3 +120,46 @@ div.social {
     font-size: 0.9375rem;
     text-align: center;
 }
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+}
+.carousel-indicators button {
+    border-radius: 100%;
+}
+.carousel-control-prev , .carousel-control-next {
+    width: auto;
+}
+.archivo {
+    background-color: var(--rosa);
+    text-align: center;
+    font-family: 'Matroska';
+    font-size: 72px;
+    color: var(--almendra);
+}
+.archivo-inside {
+    background-color: var(--almendra);
+    text-align: center;
+    font-family: 'Matroska';
+    font-size: 72px;
+    color: var(--verde);
+    transition: font-size 0.2s ease;
+}
+.agrandar:hover {
+    font-size: 84px;
+  }
+.sobremi {
+    background-color: var(--almendra);
+    text-align: center;
+    font-family: 'Matroska';
+    font-size: 86px;
+    color: var(--verde);
+}
+.sobremi:hover{
+    font-size: 100px;
+    color: var(--rosa);
+}
+#results {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
